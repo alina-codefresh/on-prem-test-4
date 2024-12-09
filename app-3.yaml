@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     path: .
-    repoURL: https://github.com/alina-codefresh/rollout-demo.git
+    repoURL: https://github.com/alina-codefresh/rollouts-demo.git
     targetRevision: onprem-testing
   destination:
     name: in-cluster
