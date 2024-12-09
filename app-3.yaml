@@ -12,7 +12,7 @@ spec:
     targetRevision: onprem-testing
   destination:
     name: in-cluster
-    namespace: default
+    namespace: test-onprem
   syncPolicy:
     automated:
       prune: true
@@ -23,7 +23,7 @@ spec:
       - Replace=false
       - PruneLast=false
       - Validate=true
-      - CreateNamespace=false
+      - CreateNamespace=true
       - ApplyOutOfSyncOnly=false
       - ServerSideApply=true
       - RespectIgnoreDifferences=false
